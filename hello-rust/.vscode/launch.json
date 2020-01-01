@@ -25,6 +25,24 @@
 		{
 			"type": "lldb",
 			"request": "launch",
+			"name": "Debug executable 'demo'",
+			"cargo": {
+				"args": [
+					"build",
+					"--bin=demo",
+					"--package=hello-rust"
+				],
+				"filter": {
+					"name": "demo",
+					"kind": "bin"
+				}
+			},
+			"args": [],
+			"cwd": "${workspaceFolder}"
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
 			"name": "Debug unit tests in executable 'hello-rust'",
 			"cargo": {
 				"args": [
