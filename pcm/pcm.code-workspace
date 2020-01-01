@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "Packages, Crates, Modules Demos"
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true
+	}
+}
