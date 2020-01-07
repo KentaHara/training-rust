@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "./demo-test",
+			"name": "Demo Test Library"
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true
+	}
+}
