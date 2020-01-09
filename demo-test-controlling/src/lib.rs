@@ -19,4 +19,9 @@ mod tests {
         let value = prints_and_returns_10(8);
         assert_eq!(5, value);
     }
+    #[test]
+    #[ignore]
+    fn expensive_test() {
+        // code that takes an hour to run
+    }
 }
