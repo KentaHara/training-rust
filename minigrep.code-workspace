@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "./minigrep",
+			"name": "Mini Grobal search a Regular Expression and Print"
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true
+	}
+}
