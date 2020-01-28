@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "./closures-example",
+			"name": "Crosures Example Cargo"
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true
+	}
+}

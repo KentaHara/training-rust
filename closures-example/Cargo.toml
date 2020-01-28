@@ -1,0 +1,30 @@
+[package]
+name = "closures-example"
+version = "0.1.0"
+authors = ["KentaHara <blanc.et.noir.rinc@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "plain"
+path = "src/plain.rs"
+
+[[bin]]
+name = "using_fn"
+path = "src/using_fn.rs"
+
+[[bin]]
+name = "expensive_closure"
+path = "src/expensive_closure.rs"
+
+[[bin]]
+name = "expensive_cacher_closure"
+path = "src/expensive_cacher_closure.rs"
+
+
+[[bin]]
+name = "error_closure"
+path = "src/error_closure.rs"

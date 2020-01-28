@@ -1,0 +1,93 @@
+{
+	// IntelliSense を使用して利用可能な属性を学べます。
+	// 既存の属性の説明をホバーして表示します。
+	// 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "リファクタリングされていないパターン",
+			"cargo": {
+				"args": [
+					"build",
+					"--bin=plain",
+				],
+				"filter": {
+					"name": "plain",
+					"kind": "bin"
+				}
+			},
+			"args": [],
+			"cwd": "${workspaceFolder}"
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "関数を利用してリファクタリングしたパターン",
+			"cargo": {
+				"args": [
+					"build",
+					"--bin=using_fn",
+				],
+				"filter": {
+					"name": "using_fn",
+					"kind": "bin"
+				}
+			},
+			"args": [],
+			"cwd": "${workspaceFolder}"
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "クロージャーを利用してリファクタリングしたパターン",
+			"cargo": {
+				"args": [
+					"build",
+					"--bin=expensive_closure",
+				],
+				"filter": {
+					"name": "expensive_closure",
+					"kind": "bin"
+				}
+			},
+			"args": [],
+			"cwd": "${workspaceFolder}"
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "クロージャー（キャッシュ）を利用してリファクタリングしたパターン",
+			"cargo": {
+				"args": [
+					"build",
+					"--bin=expensive_cacher_closure",
+				],
+				"filter": {
+					"name": "expensive_cacher_closure",
+					"kind": "bin"
+				}
+			},
+			"args": [],
+			"cwd": "${workspaceFolder}"
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "クロージャーのエラーパターン",
+			"cargo": {
+				"args": [
+					"build",
+					"--bin=error_closure",
+				],
+				"filter": {
+					"name": "error_closure",
+					"kind": "bin"
+				}
+			},
+			"args": [],
+			"cwd": "${workspaceFolder}"
+		}
+	]
+}
